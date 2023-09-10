@@ -1,0 +1,4 @@
+- How To do list work?
+* user can write todo items in an input and can add the items to an array by clicking Add button
+* every time user add an items, all the items displayed on screen
+* user can delete any item at any time by clicking on the trash bin
