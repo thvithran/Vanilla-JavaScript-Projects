@@ -1,0 +1,107 @@
+body{
+    width: 500px;
+    margin: 4% auto;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+}
+
+.calculator{
+    padding: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 1px;
+    background-color: rgb(97, 94, 94);
+}
+
+.input{
+    border: 1px solid #000000;
+    border-radius:10px ;
+    height: 60px;
+    background-color: #000000;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+    transition:  all .2s ease-in-out;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.input:hover{
+    border: 3px solid #ffffff;
+    box-shadow:  inset 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.operators div{
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #fbff00;
+    transition: ease-in-out .2s;
+}
+
+.operators div:hover{
+    background-color: #c7b40a;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #000000;
+}
+
+.operators div:active{
+    font-weight: bold;
+}
+
+.left-Panel{
+    display: inline-block;
+}
+
+.numbers div{
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 43px 1px 0;
+    cursor: pointer;
+    background-color: aqua;
+    transition: ease-in-out .3s;
+}
+
+.numbers div:hover{
+    background-color: rgb(8, 150, 150);
+    
+}
+
+.numbers div:active{
+    font-weight: bold;
+}
+div.equal {
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 17%;
+    text-align: center;
+    padding: 12px 190px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #f70000;
+    transition: all .2s ease-in-out;
+    justify-content: right;
+  }
+
+div .equal:hover{
+    background-color: #8b0606;
+}
+
+div .equal:active{
+    font-weight: bold;
+}
