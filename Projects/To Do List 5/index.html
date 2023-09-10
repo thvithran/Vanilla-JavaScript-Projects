@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>To Do List 5</h1>
 
+        <!--Container of add new task -->
+        <div class="new-task-container box">
+            <label for="new-task">Add New Task</label>
+            <input type="text" id="new-task">
+            <button type="button" id="addTask" class="addTask">AddTask</button>
+        </div>
+
+        <!--Container to see added tasks with checkbox.If the user complete the task, they can click the task. 
+            It will automatically go to Completed tasks column-->
+        <div class="todo-list box">
+            <h2>Incomplete Tasks</h2>
+            <ul>
+                <li><input type="checkbox"><label>Task Name</label></li>
+                <li><input type="checkbox"><label>Task Name</label></li>
+                <li><input type="checkbox"><label>Task Name</label></li>
+            </ul>
+        </div>
+
+        <div class="complete-list box">
+            <h2>Completed Tasks</h2>
+            <ul>
+                <li>Task Name <button type="button" class="delete">Delete</button></li>
+            </ul>
+        </div>
+
+    <!--End Of To-Do List : End of container class-->    
+    </section>
+
+    <!--Script JS link-->
+    <script src="/script.js"></script>
+</body>
+</html>
