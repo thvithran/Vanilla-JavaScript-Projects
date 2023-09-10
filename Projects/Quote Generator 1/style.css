@@ -1,0 +1,76 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #b59ed9;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    width: auto;
+    max-width: 900px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color:  rgb(226, 226, 226);
+    box-shadow: 0 10px 10px 10px rgba(58, 57, 57, 0.9);
+}
+
+.quote-text{
+    font-size: 1.5rem;
+}
+
+.quote-author{
+    margin-top: 25px;
+    font-size: 0.9 rem;
+    font-weight: 400;
+    font-style: italic;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1014df;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121,121,121,0.65);
+}
+
+button:hover{
+    background-color: brown;
+
+}
+
+/* media query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+    .quote-container {
+      margin: auto 10px;
+    }
+  
+    .quote-text {
+      font-size: 2.5rem;
+    }
+  }
