@@ -1,0 +1,13 @@
+- A user can set a countdown timer  and rest the it set new one.
+- This interaction of user can be happened with help of JavaScript
+
+- In JS, 
+- we have declared a variable named startTimer()  which contain a null value means a user has not set a timer.
+
+- JS Code contain addEventListener() functions which helps to set a countdown time a user want.
+
+- A function called addEventListener() contains a another function that is startInterval() this is the onclick function 
+
+that means when user click on the 'Start' button it is being called  and starts the countdown timer from the time you have set.
+
+- When a user click on the 'Reset' button the another function is being called that is stopInterval() 
