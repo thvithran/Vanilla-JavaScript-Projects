@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #0a2b5c;
+}
+
+/* Logo */
+.logo{
+    width: auto;
+    display: block;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+/* Style Title */
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #ffd000;
+    text-decoration: underline;
+}
+
+/* Styling Scoreboard */
+.scoreboard{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+ 
+.player-score,
+.computer-score{
+    font-size: 1.6rem;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Styling the choices */
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3.20rem;
+}
+
+.choice{
+    border: 2px solid #660033;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    transition:  transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    transform: scale(1.2);
+}
+
+.choice:active{
+    transform: scale(0.8);
+    background-color: rgb(114, 114, 114);
+    border-radius: 24px;
+    color: #fff;
+    border: 5px solid rgb(238, 255, 0);
+}
+
+/* Styling Result */
+.result{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.result >p {
+    color: #fff;
+}
+
+#computer-choice{
+    text-align: center;
+    font-size: 1rem;
+    color: chartreuse;
+
+}
+
+/* Style timer */
+.timer {
+    text-align: center;
+    padding: 30;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: black;
+    background-color: #48ff00;
+  }
+
+ /* Style play again button */
+.play-again {
+    display: block;
+    margin: 3rem auto 1rem auto;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd000;
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .play-again:hover {
+    background-color: #a59506;
+  } 
+
+  .play-again:active {
+    transform: scale(0.9);
+  }
+
+/* Add responsive design */
+@media only screen and (max-width: 600px) {
+    .choices {
+      flex-wrap: wrap;
+    }
+  
+    .choice {
+      margin: 2rem 1rem;
+    }
+  
+    .timer {
+      margin-top: 1rem;
+    }
+  }
