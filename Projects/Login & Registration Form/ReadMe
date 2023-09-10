@@ -1,0 +1,8 @@
+A simple login and registration form
+
+*user registration
+*form validation
+*password strengthen
+*error handling - form provide error if user did invalid inputs
+*user login
+*persistance
