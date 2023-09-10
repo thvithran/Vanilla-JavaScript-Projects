@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+body{
+    background-color: black;
+}
+
+.clock{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #feef17;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+}
