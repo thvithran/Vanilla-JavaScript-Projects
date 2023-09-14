@@ -1,0 +1,7 @@
+normal countdown app
+
+- html
+* create a div named container will contain four div
+1, days, hours,minutes,etc
+
+* create another div for the alert that the user sees when counter time completed.
